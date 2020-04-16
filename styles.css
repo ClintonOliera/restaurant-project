@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -79,6 +80,7 @@ form .submit:hover {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #D4D7DE;
     background-color: #d4d7de;
     width: 100%;
     width: 100%;
@@ -102,6 +104,101 @@ a {
     border-radius: 20px;
 }
 a:hover {
+    color: #ff5722;
+    padding: 15px;
+}
+
+
+@import url('https://fonts.googleleapis.com/css?family=Raleway');
+@import url('https://fonts.googleleapis.com/css?family=Oswald');
+
+html, body {
+    margin: opx;
+    padding: opx;
+    height: 100%;
+    width: 100%;
+}
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url('img/Background Image.jpg') no-repeat 50% 50%;
+    display: table;
+    top: o;
+    background-size: cover;
+}.intro {
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}.content {
+max-width: 600%;  
+margin: o auto;  
+text-align: center;
+padding-bottom: 28%;
+
+}
+.content h1{
+  font-size: 'Yantramanav,' sans-serif;  
+  
+}
+.content h1{
+   font-family: 'Yantramanav,' sans-serif;
+   font-size: 600%;
+   font-weight: 100;
+   color:#E1EFE9;
+   line-height: 80%;
+}
+.btn {
+    font-family:'Monserrat',sans-serif;
+    font-size: 138%;
+    font-weight: 400;
+    color: #3A6168;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: solid #3A6168;
+    padding: 10px 20px;
+    border-radius: 9px;
+    transition: all 0.6;
+}
+.btn:hover {
+    color: #ff5722;
+    border: solid #CBDFd6 2px;
+
+}
+p{
+    font-size: 150%;
+   line-height: 120%;
+   font-family: sans-serif;
+}
+/*--- Media Queries ---*/
+@media screen and (max-width: 900px) {
+    .content {
+        padding-bottom: 30%;
+    }
+    .btn{
+        font-size: 450%;
+    }
+    .content h1{
+     font-size: 110%;
+     padding: 9px 17px;
+    }.content {
+        padding-bottom: 40%;
+    }
+    .btn{
+        font-size: 300%;
+    }
+    .content h1{
+     font-size: 110%;
+     padding: 9px 17px;
+    }
+    @media screen and (max-width: 400px) {
+
+    }
+    p {
+       font-size: 120%; 
+       line-height: 100%;
+    }
     padding: 5px;
     color: #ff5722;
 }
