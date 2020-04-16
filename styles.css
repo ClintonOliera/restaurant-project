@@ -1,3 +1,78 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)),url("https://media.istockphoto.com/photos/hot-air-balloon-above-high-mountain-at-sunset-picture-id1001927840?k=6&m=1001927840&s=612x612&w=0&h=w_lvcuYOrpaBcf2zIA6odnRLZXKDxf3aLqjWmU3l4R0=");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.contact-title {
+    margin-top: 100px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+    font-family: Audiowide;
+} 
+.location-title h1 {
+    font-family: Audiowide;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+    margin-top: 100px;
+    color: #fff;
+}
+.contact-title h2 {
+font-size: 16px;
+line-height: 10px;
+}
+.contact-title h3 {
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+.contact-area , .location-area {
+position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: row;
+width: 100%;
+height: 200px;
+}
+.form-control  {
+   width: 700px;
+   background: transparent;
+   border: none;
+   outline: none;
+   border-bottom: 1px solid gray;
+   color: #fff;
+   font-size: 18px;
+   margin: 16px;
+}
+input {
+    height: 50px;
+}
+form .submit {
+   background: #ff5722; 
+   border-color: transparent;
+   color: #fff;
+   font-size: 20px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   height: 50px;
+   margin-top: 20px;
+}
+form .submit:hover {
+    background-color: #f44336;
+    cursor: progress;
+}
 .navbar {
     position: fixed;
     display: flex;
@@ -6,6 +81,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #D4D7DE;
+    background-color: #d4d7de;
     width: 100%;
     width: 100%;
     z-index: 2;
@@ -123,4 +199,16 @@ p{
        font-size: 120%; 
        line-height: 100%;
     }
+    padding: 5px;
+    color: #ff5722;
+}
+.logo {
+    flex: 1 1 auto;
+    margin-left: 8%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    font-family: Audiowide;
 }
