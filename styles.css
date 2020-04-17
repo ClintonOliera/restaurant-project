@@ -24,3 +24,6 @@ h5{
 table{
   table-align:center;
 }
+.menu-area{
+  display: grid;
+}
